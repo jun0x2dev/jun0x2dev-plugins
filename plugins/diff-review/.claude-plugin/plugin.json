@@ -1,0 +1,11 @@
+{
+  "name": "diff-review",
+  "version": "1.0.0",
+  "description": "git diff 기반 코드 리뷰 후 수정 여부를 사용자에게 확인",
+  "author": {
+    "name": "jun0x2dev"
+  },
+  "commands": [
+    "./commands/diff-review.md"
+  ]
+}
