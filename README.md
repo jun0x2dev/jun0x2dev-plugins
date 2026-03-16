@@ -11,11 +11,17 @@ jun0x2dev의 Claude Code 플러그인 모음입니다.
 
 ## 설치
 
-각 플러그인은 독립적으로 설치할 수 있습니다.
+먼저 마켓플레이스를 추가합니다.
 
-```bash
-/plugin install jun0x2dev/jun0x2dev-plugins/plugins/git-commands
-/plugin install jun0x2dev/jun0x2dev-plugins/plugins/diff-review
+```
+/plugin marketplace add jun0x2dev/jun0x2dev-plugins
+```
+
+이후 원하는 플러그인을 설치합니다.
+
+```
+/plugin install git-commands
+/plugin install diff-review
 ```
 
 ## 요구사항
