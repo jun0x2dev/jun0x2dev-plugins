@@ -1,0 +1,32 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "jun0x2dev-plugins",
+  "description": "Git workflow automation plugins for Claude Code",
+  "owner": {
+    "name": "jun0x2dev"
+  },
+  "plugins": [
+    {
+      "name": "git-commands",
+      "description": "COMMIT.md 규칙 기반 Git 커밋/푸시/PR 자동화",
+      "version": "1.0.0",
+      "author": {
+        "name": "jun0x2dev"
+      },
+      "source": "./plugins/git-commands",
+      "category": "productivity",
+      "homepage": "https://github.com/jun0x2dev/jun0x2dev-plugins/tree/main/plugins/git-commands"
+    },
+    {
+      "name": "diff-review",
+      "description": "git diff 기반 코드 리뷰 후 수정 여부를 사용자에게 확인",
+      "version": "1.0.0",
+      "author": {
+        "name": "jun0x2dev"
+      },
+      "source": "./plugins/diff-review",
+      "category": "productivity",
+      "homepage": "https://github.com/jun0x2dev/jun0x2dev-plugins/tree/main/plugins/diff-review"
+    }
+  ]
+}
