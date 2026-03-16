@@ -25,8 +25,9 @@
 
 ## 설치
 
-```bash
-/plugin install jun0x2dev/jun0x2dev-plugins/plugins/git-commands
+```
+/plugin marketplace add jun0x2dev/jun0x2dev-plugins
+/plugin install git-commands
 ```
 
 ## 명령어

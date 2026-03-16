@@ -4,8 +4,9 @@ git diff 기반으로 변경사항을 리뷰하고 수정 여부를 확인하는
 
 ## 설치
 
-```bash
-/plugin install jun0x2dev/jun0x2dev-plugins/plugins/diff-review
+```
+/plugin marketplace add jun0x2dev/jun0x2dev-plugins
+/plugin install diff-review
 ```
 
 ## 명령어
