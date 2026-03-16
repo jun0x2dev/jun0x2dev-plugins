@@ -23,12 +23,3 @@ jun0x2dev의 Claude Code 플러그인 모음입니다.
 /plugin install git-commands
 /plugin install diff-review
 ```
-
-## 요구사항
-
-- [Claude Code](https://claude.ai/code)
-- PR 생성 시 [GitHub CLI (gh)](https://cli.github.com/) 필요
-
-## License
-
-MIT
