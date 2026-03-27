@@ -18,6 +18,17 @@
       "homepage": "https://github.com/jun0x2dev/jun0x2dev-plugins/tree/main/plugins/git-commands"
     },
     {
+      "name": "spec-doc",
+      "description": "코드 파일을 분석하여 기능 명세 문서를 자동 생성",
+      "version": "1.0.0",
+      "author": {
+        "name": "jun0x2dev"
+      },
+      "source": "./plugins/spec-doc",
+      "category": "productivity",
+      "homepage": "https://github.com/jun0x2dev/jun0x2dev-plugins/tree/main/plugins/spec-doc"
+    },
+    {
       "name": "diff-review",
       "description": "git diff 기반 코드 리뷰 후 수정 여부를 사용자에게 확인",
       "version": "1.0.0",
