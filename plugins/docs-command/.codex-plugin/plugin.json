@@ -1,0 +1,28 @@
+{
+  "name": "docs-command",
+  "version": "1.0.0",
+  "description": "Analyze feature code and generate detailed Markdown specs under docs/",
+  "author": {
+    "name": "jun0x2dev",
+    "url": "https://github.com/jun0x2dev"
+  },
+  "homepage": "https://github.com/jun0x2dev/jun0x2dev-plugins/tree/main/plugins/docs-command",
+  "repository": "https://github.com/jun0x2dev/jun0x2dev-plugins",
+  "keywords": ["docs", "spec", "documentation", "feature-analysis"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Docs Command",
+    "shortDescription": "Generate implementation-based feature specs under docs/.",
+    "longDescription": "Provides a Codex skill that reads implementation files or recent diffs, analyzes related code, and writes detailed Korean Markdown feature specifications under docs/.",
+    "developerName": "jun0x2dev",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write", "Interactive"],
+    "websiteURL": "https://github.com/jun0x2dev/jun0x2dev-plugins/tree/main/plugins/docs-command",
+    "defaultPrompt": [
+      "Use docs-command to document the latest feature.",
+      "Use docs-command for src/controller/UserController.java.",
+      "Use docs-command for payment."
+    ],
+    "brandColor": "#7C3AED"
+  }
+}

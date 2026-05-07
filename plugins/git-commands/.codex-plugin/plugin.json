@@ -1,0 +1,28 @@
+{
+  "name": "git-commands",
+  "version": "1.0.0",
+  "description": "COMMIT.md rules based Git commit, push, and PR automation",
+  "author": {
+    "name": "jun0x2dev",
+    "url": "https://github.com/jun0x2dev"
+  },
+  "homepage": "https://github.com/jun0x2dev/jun0x2dev-plugins/tree/main/plugins/git-commands",
+  "repository": "https://github.com/jun0x2dev/jun0x2dev-plugins",
+  "keywords": ["git", "commit", "push", "pr", "workflow"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Git Commands",
+    "shortDescription": "Automate commits, pushes, and PRs using COMMIT.md rules.",
+    "longDescription": "Provides Codex skills for creating commits, pushing branches, and opening pull requests while applying the repository's COMMIT.md conventions.",
+    "developerName": "jun0x2dev",
+    "category": "Productivity",
+    "capabilities": ["Write", "Interactive"],
+    "websiteURL": "https://github.com/jun0x2dev/jun0x2dev-plugins/tree/main/plugins/git-commands",
+    "defaultPrompt": [
+      "Use git-commands-commit to create a commit.",
+      "Use git-commands-commit-push to commit and push.",
+      "Use git-commands-commit-push-pr to create a PR."
+    ],
+    "brandColor": "#2563EB"
+  }
+}

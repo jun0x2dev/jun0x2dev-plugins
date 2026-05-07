@@ -1,0 +1,26 @@
+{
+  "name": "diff-review",
+  "version": "1.0.0",
+  "description": "Review git diff changes and ask before applying fixes",
+  "author": {
+    "name": "jun0x2dev",
+    "url": "https://github.com/jun0x2dev"
+  },
+  "homepage": "https://github.com/jun0x2dev/jun0x2dev-plugins/tree/main/plugins/diff-review",
+  "repository": "https://github.com/jun0x2dev/jun0x2dev-plugins",
+  "keywords": ["git", "diff", "review", "code-review"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Diff Review",
+    "shortDescription": "Review git diff changes and ask before fixing issues.",
+    "longDescription": "Provides a Codex skill that reviews current git diff changes for bugs, security issues, quality problems, and reuse opportunities, then asks which fixes to apply.",
+    "developerName": "jun0x2dev",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write", "Interactive"],
+    "websiteURL": "https://github.com/jun0x2dev/jun0x2dev-plugins/tree/main/plugins/diff-review",
+    "defaultPrompt": [
+      "Use diff-review to review my current git diff."
+    ],
+    "brandColor": "#0F766E"
+  }
+}
