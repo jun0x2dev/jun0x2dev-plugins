@@ -1,0 +1,11 @@
+{
+  "name": "apidoc-command",
+  "version": "1.0.0",
+  "description": "OpenAPI 컨트롤러와 DTO를 분석해서 참고 양식 기반 API 명세 HTML을 생성하고 apiService core.js에 등록",
+  "author": {
+    "name": "jun0x2dev"
+  },
+  "commands": [
+    "./commands/apidoc-command.md"
+  ]
+}

@@ -38,6 +38,17 @@
       "source": "./plugins/docs-command",
       "category": "productivity",
       "homepage": "https://github.com/jun0x2dev/jun0x2dev-plugins/tree/main/plugins/docs-command"
+    },
+    {
+      "name": "apidoc-command",
+      "description": "(업무용)OpenAPI 컨트롤러와 DTO를 분석해서 API 명세 HTML을 생성하고 apiService core.js에 등록",
+      "version": "1.0.0",
+      "author": {
+        "name": "jun0x2dev"
+      },
+      "source": "./plugins/apidoc-command",
+      "category": "productivity",
+      "homepage": "https://github.com/jun0x2dev/jun0x2dev-plugins/tree/main/plugins/apidoc-command"
     }
   ]
 }

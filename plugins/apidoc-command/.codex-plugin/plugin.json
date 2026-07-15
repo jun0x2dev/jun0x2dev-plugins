@@ -1,0 +1,28 @@
+{
+  "name": "apidoc-command",
+  "version": "1.0.0",
+  "description": "Analyze an OpenAPI controller and DTOs to generate an API spec HTML and register it in apiService core.js",
+  "author": {
+    "name": "jun0x2dev",
+    "url": "https://github.com/jun0x2dev"
+  },
+  "homepage": "https://github.com/jun0x2dev/jun0x2dev-plugins/tree/main/plugins/apidoc-command",
+  "repository": "https://github.com/jun0x2dev/jun0x2dev-plugins",
+  "keywords": ["api", "spec", "documentation", "openapi", "html"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "API Doc Command",
+    "shortDescription": "Generate an API spec HTML from a controller and register it in apiService.",
+    "longDescription": "Provides a skill that reads an OpenAPI controller and its response DTOs, clones the embedded-font head of an existing spec HTML template, and writes a consistent API specification HTML under docs/api/, then registers the download mapping in apiService core.js.",
+    "developerName": "jun0x2dev",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write", "Interactive"],
+    "websiteURL": "https://github.com/jun0x2dev/jun0x2dev-plugins/tree/main/plugins/apidoc-command",
+    "defaultPrompt": [
+      "Use apidoc-command for src/main/java/.../WeatherPointController.java.",
+      "Use apidoc-command for weather-point.",
+      "Use apidoc-command to document the latest controller."
+    ],
+    "brandColor": "#7C3AED"
+  }
+}
