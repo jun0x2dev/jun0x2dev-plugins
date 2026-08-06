@@ -1,7 +1,7 @@
 {
   "name": "docs-command",
-  "version": "1.0.0",
-  "description": "Analyze feature code and generate detailed Markdown specs under docs/",
+  "version": "1.1.0",
+  "description": "Analyze feature code, generate detailed Markdown specs under docs/, and verify them against the source code",
   "author": {
     "name": "jun0x2dev",
     "url": "https://github.com/jun0x2dev"

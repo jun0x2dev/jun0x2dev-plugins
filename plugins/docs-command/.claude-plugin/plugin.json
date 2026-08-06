@@ -1,7 +1,7 @@
 {
   "name": "docs-command",
-  "version": "1.0.0",
-  "description": "기능 코드를 분석해서 docs/ 경로에 기능 명세 MD 파일을 자동 생성",
+  "version": "1.1.0",
+  "description": "기능 코드를 분석해서 docs/ 경로에 기능 명세 MD 파일을 자동 생성하고, 작성 후 코드와 대조 검증",
   "author": {
     "name": "jun0x2dev"
   },

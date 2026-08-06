@@ -8,7 +8,7 @@ jun0x2dev의 Claude Code / Codex 플러그인 모음입니다.
 |----------|------|
 | [git-commands](./plugins/git-commands) | COMMIT.md 규칙 기반 Git 커밋/푸시/PR 자동화 |
 | [diff-review](./plugins/diff-review) | git diff 기반 코드 리뷰 |
-| [docs-command](./plugins/docs-command) | 기능 코드 분석 기반 docs/ 명세 문서 생성 |
+| [docs-command](./plugins/docs-command) | 기능 코드 분석 기반 docs/ 명세 문서 생성 + 작성 후 코드 대조 검증 |
 
 ## Claude Code 설치
 
